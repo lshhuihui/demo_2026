@@ -1,0 +1,47 @@
+{
+  "code": 0,
+  "msg": "",
+  "count": 1000,
+  "data": [
+    {
+      "id": 10000,
+      "username": "user-0",
+      "email": "123@qq.com",
+      "sex": "男",
+      "city": "丽江",
+      "cumulative_score": 100
+    },
+    {
+      "id": 10001,
+      "username": "user-0",
+      "email": "1234@qq.com",
+      "sex": "女",
+      "city": "旅游学院",
+      "cumulative_score": 255
+    }
+  ]
+}
+
+{
+  "msg": "success",
+  "count": 2,
+  "code": 200,
+  "data": [
+    {
+      "city": "丽江",
+      "sex": "男",
+      "id": 10001,
+      "experience": "200.0",
+      "email": "704382210@qq.com",
+      "username": "小灰灰"
+    },
+    {
+      "city": "昆明",
+      "sex": "女",
+      "id": 10002,
+      "experience": "500.0",
+      "email": "lishihuijava@163.com",
+      "username": "红太狼"
+    }
+  ]
+}

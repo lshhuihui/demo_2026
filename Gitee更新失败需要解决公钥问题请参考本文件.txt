@@ -1,0 +1,6 @@
+这是Github的公钥配置说明，Gitee的配置说明可以自行搜索相关博客解决：
+https://blog.csdn.net/qq_43705131/article/details/107965888
+
+
+这是Gitee上传代码失败，多数都是因为公钥引起的，解决方案参照下面的博客：
+https://blog.csdn.net/Csdn_Citynorth/article/details/122162069
