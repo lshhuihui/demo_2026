@@ -1,0 +1,27 @@
+<!-- idea热部署相关：
+①修改file->settings->compiler->build project automatically。
+②按ctrl+shift+a，搜索Registry双击进去，点击面板搜索running，勾选running选项。
+③pom.xml添加依赖
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-devtools</artifactId>
+    <optional>true</optional>
+</dependency>
+-->
+
+<!--
+解决Mysql时区问题：
+①C:\ProgramData\MySQL\MySQL Server 8.0\my.ini
+②在 [mysqld] 之下加  default-time-zone='+08:00'  重启服务
+③！！！注意一定要在 [mysqld] 之下加 ，否则会出现 unknown variable 'default-time-zone=+8:00'
+-->
+
+<!--
+下载maven依赖太慢解决：
+https://blog.csdn.net/obukaopu1/article/details/113249913
+-->
+
+
+<!--
+ 安装lombok插件
+-->

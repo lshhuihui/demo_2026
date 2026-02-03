@@ -40,6 +40,7 @@ public class DemoApplicationTests {
 
     /**
      * 团购网站
+     * mvn -Dtest=DemoApplicationTests test
      */
 
     @Test

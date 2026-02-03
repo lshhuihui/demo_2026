@@ -1,9 +1,0 @@
-Gitee导入代码仓库：
-https://gitee.com/lijiang_lishihui/demo.git
-Gitee相关操作：
-https://blog.csdn.net/lishihuijava/article/details/129538959
-
-IDEA导出项目说明：
-https://blog.csdn.net/lishihuijava/article/details/129540161
-
-test push--

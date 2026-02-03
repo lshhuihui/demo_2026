@@ -9,7 +9,7 @@ import javax.persistence.Table;
 import java.util.Date;
 
 @Data
-@Table(name = "lishihui_system_user")
+@Table(name = "User")
 public class User {
 
     @Id

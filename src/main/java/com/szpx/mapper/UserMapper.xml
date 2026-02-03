@@ -5,7 +5,7 @@
     <mapper namespace="com.szpx.mapper.UserMapper">
     <!--多条件查询 -->
     <select id="getListByCon" resultType="user" parameterType="user">
-        select * from lishihui_system_user
+        select * from User
         <trim prefix="where" prefixOverrides="and || or">
             <if test="name!=null and name!=''">and name like concat('%',#{name},'%')</if>
             <if test="sex!=null and sex!=''">and sex=#{sex}</if>
