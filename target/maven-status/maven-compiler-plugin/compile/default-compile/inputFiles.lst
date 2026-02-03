@@ -1,9 +1,0 @@
-/workspaces/demo_2026/src/main/java/com/szpx/DemoApplication.java
-/workspaces/demo_2026/src/main/java/com/szpx/interceptor/LoginInterceptor.java
-/workspaces/demo_2026/src/main/java/com/szpx/config/MvcConfig.java
-/workspaces/demo_2026/src/main/java/com/szpx/config/DruidConfig.java
-/workspaces/demo_2026/src/main/java/com/szpx/mapper/UserMapper.java
-/workspaces/demo_2026/src/main/java/com/szpx/service/impl/UserServiceImpl.java
-/workspaces/demo_2026/src/main/java/com/szpx/controller/UserController.java
-/workspaces/demo_2026/src/main/java/com/szpx/service/UserService.java
-/workspaces/demo_2026/src/main/java/com/szpx/entity/User.java

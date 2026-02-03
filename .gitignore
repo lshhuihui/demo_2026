@@ -1,0 +1,225 @@
+############################
+# 1. 操作系统相关
+############################
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.nfs*
+
+
+############################
+# 2. Java / JVM
+############################
+
+*.class
+*.log
+*.ctxt
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+
+############################
+# 3. Maven
+############################
+
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+
+############################
+# 4. Gradle
+############################
+
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+
+############################
+# 5. Spring / Spring Boot
+############################
+
+logs/
+*.log
+spring.log
+
+# Spring profiles (含敏感信息)
+application-local.yml
+application-local.yaml
+application-dev.yml
+application-dev.yaml
+application-test.yml
+application-test.yaml
+application-prod.yml
+application-prod.yaml
+application-secret.yml
+application-secret.yaml
+
+
+############################
+# 6. MyBatis / 数据库
+############################
+
+*.db
+*.sqlite
+*.sqlite3
+*.sql.bak
+*.dump
+
+
+############################
+# 7. IDE - IntelliJ IDEA
+############################
+
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+
+############################
+# 8. IDE - Eclipse
+############################
+
+.project
+.classpath
+.settings/
+.factorypath
+.springBeans
+.recommenders/
+
+
+############################
+# 9. IDE - VS Code
+############################
+
+.vscode/
+.history/
+*.code-workspace
+
+
+############################
+# 10. Codespaces / DevContainer
+############################
+
+.devcontainer/
+.codespaces/
+
+
+############################
+# 11. Node / 前端（即使你现在不用）
+############################
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+.cache/
+
+
+############################
+# 12. Python（工具脚本常见）
+############################
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+
+
+############################
+# 13. 测试 & 覆盖率
+############################
+
+coverage/
+*.lcov
+*.clover
+test-output/
+
+
+############################
+# 14. 压缩包 / 临时文件
+############################
+
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.tmp
+*.bak
+*.swp
+*.lock
+
+
+############################
+# 15. 安全 & 密钥（非常重要）
+############################
+
+*.pem
+*.key
+*.crt
+*.jks
+*.keystore
+*.p12
+*.pfx
+
+.env.*
+secrets/
+credentials/
+config/secret/
+
+
+############################
+# 16. 日志 & 运行产物
+############################
+
+nohup.out
+*.pid
+*.out
+
+
+############################
+# 17. Docker（如后续用）
+############################
+
+docker-compose.override.yml
+*.docker.env
+
+
+############################
+# 18. 其他杂项
+############################
+
+*.orig
+*.rej
+*.patch
+.cache/
+tmp/
+temp/

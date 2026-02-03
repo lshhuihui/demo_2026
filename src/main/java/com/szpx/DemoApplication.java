@@ -35,7 +35,7 @@ public class DemoApplication extends SpringBootServletInitializer {
      * 访问地址为：127.0.0.1:8086
      * 
      * # 进入项目根目录（包含 pom.xml 的目录）
-     * cd 当前目录，比如：cd /workspace/spring-boot-cloud-studio-demo
+     * cd /当前目录，比如：cd /workspace/spring-boot-cloud-studio-demo
      * # 清理并运行项目
      * mvn clean spring-boot:run
      * 在控制台中Ctrl + c停止运行
